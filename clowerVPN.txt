@@ -8,3 +8,6 @@ trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=
 hysteria2://10550754-cf62-3d3b-ba6a-50be27a275d7@195.133.53.33:443?security=tls&insecure=0&mport=443&sni=s516.okgfw.top#🇷🇺 Россия
 
 trojan://Tel%3DArshiacomplus@45.154.96.35:58035?type=xhttp&mode=stream-one&host=oof.acp.us.ci&path=/fkcidiekei&security=tls&fp=firefox&sni=oof.acp.us.ci&alpn=h2,http/1.1#🇫🇷 Франция
+
+
+trojan://AZWY%3DWAZk5TeVYmMUudr2xmeb00I3ymeMQ@23.227.193.173:443?security=tls&sni=www.dataset-logger.click&fp=chrome&type=tcp#🇺🇸 США
