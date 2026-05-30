@@ -11,3 +11,5 @@ trojan://Tel%3DArshiacomplus@45.154.96.35:58035?type=xhttp&mode=stream-one&host=
 
 
 trojan://AZWY%3DWAZk5TeVYmMUudr2xmeb00I3ymeMQ@23.227.193.173:443?security=tls&sni=www.dataset-logger.click&fp=chrome&type=tcp#🇺🇸 США
+
+ss://YWVzLTI1Ni1nY206RmpHM0lQYm55KzBaWVU0L3AxdlVMUDg0R2NLcEdvWnBXS0FheTE2VmhJdz0@51.254.128.106:2083#🇫🇷 Франция
