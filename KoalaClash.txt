@@ -1,0 +1,122 @@
+# profile-title: 🍀 КлеверVPN
+
+proxies:
+  - name: "🇷🇺 Белый Список"
+    type: vless
+    server: 178.250.246.138
+    port: 443
+    uuid: dd01166e-cfa8-42a2-919f-fcfe1c826589
+    flow: xtls-rprx-vision
+    servername: max.ru
+    reality-opts:
+      public-key: x6IISB8aN_CSlPY6C1PEcwj-HsNYK_wPnTGE4PV0OEI
+      short-id: e5b74b1933d870a2
+    client-fingerprint: chrome
+    tls: true
+    udp: true
+    network: tcp
+
+  - name: "🌐 Anycast-IP"
+    type: vless
+    server: 178.250.246.138
+    port: 443
+    uuid: dd01166e-cfa8-42a2-919f-fcfe1c826589
+    flow: xtls-rprx-vision
+    servername: max.ru
+    reality-opts:
+      public-key: x6IISB8aN_CSlPY6C1PEcwj-HsNYK_wPnTGE4PV0OEI
+      short-id: e5b74b1933d870a2
+    client-fingerprint: chrome
+    tls: true
+    udp: true
+    network: tcp
+
+  - name: "🇦🇹 Австрия"
+    type: trojan
+    server: 185.126.236.44
+    port: 443
+    password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+    udp: true
+    tls: true
+    sni: www.mesaly.click
+    client-fingerprint: chrome
+    network: tcp
+
+  - name: "🇷🇺 Россия"
+    type: hysteria2
+    server: 195.133.53.33
+    port: 443
+    password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+    sni: s516.okgfw.top
+    tls: true
+    insecure: false
+
+  - name: "🇫🇷 Франция"
+    type: trojan
+    server: 45.154.96.35
+    port: 58035
+    password: Tel=Arshiacomplus
+    udp: true
+    tls: true
+    sni: oof.acp.us.ci
+    client-fingerprint: firefox
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /fkcidiekei
+      headers:
+        Host:
+          - oof.acp.us.ci
+
+  - name: "🇺🇸 США"
+    type: trojan
+    server: 23.227.193.173
+    port: 443
+    password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
+    udp: true
+    tls: true
+    sni: www.dataset-logger.click
+    client-fingerprint: chrome
+    network: tcp
+
+  - name: "🇫🇷 Франция (SS)"
+    type: ss
+    server: 51.254.128.106
+    port: 2083
+    cipher: aes-256-gcm
+    password: RmpHM0lQYm55KzBaWVU0L3AxdlVMUDg0R2NLcEdvWnBXS0FheTE2VmhJdz0
+    udp: true
+
+  - name: "🇺🇸 США (SS)"
+    type: ss
+    server: 170.130.40.123
+    port: 41352
+    cipher: chacha20-ietf-poly1305
+    password: cQ3MWDKbJz9NCaEhEl6A7rwBXpaKky91NFURu1q
+    udp: true
+
+proxy-groups:
+  - name: "🚀 SELECT"
+    type: select
+    proxies:
+      - "🇷🇺 Белый Список"
+      - "🌐 Anycast-IP"
+      - "🇦🇹 Австрия"
+      - "🇷🇺 Россия"
+      - "🇫🇷 Франция"
+      - "🇺🇸 США"
+      - "🇫🇷 Франция (SS)"
+      - "🇺🇸 США (SS)"
+
+  - name: "🌍 Безопасный"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    proxies:
+      - "🇷🇺 Белый Список"
+      - "🇦🇹 Австрия"
+      - "🇫🇷 Франция"
+
+rules:
+  - "MATCH,🚀 SELECT"
