@@ -46,8 +46,16 @@ proxies:
     tls: false
     network: tcp
 
+  - name: "🇳🇱 Нидерланды"
+    type: ss
+    server: 193.29.139.235
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhGQ8ka3Pa3A
+    udp: true
+
 proxy-groups:
-  - name: "🚀 SELECT"
+  - name: "КлеверВПН"
     type: select
     proxies:
       - "🇦🇹 Австрия"
@@ -55,6 +63,7 @@ proxy-groups:
       - "🇺🇸 США"
       - "🇿🇦 ЮАР"
       - "🇵🇱 Польша"
+      - "🇳🇱 Нидерланды"
 
 rules:
-  - "MATCH,🚀 SELECT"
+  - "MATCH,КлеверВПН"
