@@ -10,8 +10,3 @@ vless://0c61d46d-4c4d-421b-b0fb-d211415da368@52.14.47.44:443#🇺🇸 США
 ss://YWVzLTI1Ni1nY206YzFmZDBiMjktNmMxOC00MDQyLTg3YTItZjViZDc4NzhkYzBh@192.142.18.127:443#🇿🇦 Южноафриканская Республика
 
 trojan://iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf@64.176.65.85:443#🇵🇱 Польша
-
-
-https://gist.githubusercontent.com/moksim76/19e5c747b19f9ab4610609bcde01fb3d/raw/5d9ac6883ceb0a9e2e94040defabb8b97c1f317d/XuexVpn%2520Free
-
-https://vitalik.one/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOm51bGwsInN1YiI6ODY5NzQ0OTk3NSwidmVyIjoxfQ.cNxTiarmMQVjL0BU6R7r4fzFM4k96nrrPKF3rBSRyrM
